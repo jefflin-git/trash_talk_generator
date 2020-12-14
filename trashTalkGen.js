@@ -16,13 +16,6 @@ function generateTrashTalk(option) {
   }
   const phrase = ['很簡單', '很容易', '很快', '很正常']
 
-  // const option = {
-  //   // engineer: 'yes',
-  //   designer: 'yes',
-  //   // entrepreneur: 'yes',
-
-  // }
-
   // create a collection to store things user picked up
   let taskCollection = []
   let target = ''
