@@ -20,7 +20,7 @@
    ```
 2. 進入專案資料夾
    ```
-   cd restaurant_list
+   cd trash_talk_generator
    ```
 3. 至 package.json 檔案裝查看需安裝的npm套件，並搭配以下指令安裝
    ```
