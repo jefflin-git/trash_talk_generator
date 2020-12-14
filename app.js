@@ -23,9 +23,12 @@ handlebars.registerHelper('ifEquals', function (job, selectedJob, options) {
 app.use(express.static('public'))
 
 // setting routes
+app.get('/', (req, res) => {
+  res.render('index')
+})
+
 app.post('/', (req, res) => {
   const trashTalk = generateTrashTalk(req.body)
-  console.log(req.body)
   res.render('index', { trashTalk: trashTalk, data: req.body })
 
 })
