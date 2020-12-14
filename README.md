@@ -16,7 +16,7 @@
 - 提醒: 以下動作需使用 terminal 或 Git Bash 指令
 1. 將專案cline到本地環境
    ```
-   git clone https://github.com/jefflin-git/restaurant_list.git
+   git clone https://github.com/jefflin-git/trash_talk_generator.git
    ```
 2. 進入專案資料夾
    ```
