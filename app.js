@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 
 //create ifEquals 
 handlebars.registerHelper('ifEquals', function (job, selectedJob, options) {
-  return (job == selectedJob) ? options.fn(this) : options.inverse(this);
+  return (job === selectedJob) ? options.fn(this) : options.inverse(this)
 })
 
 // setting static files

@@ -38,9 +38,9 @@ function generateTrashTalk(option) {
   }
 
   // start generating trash talk
-  const onetask = randomFun(taskCollection)
-  const onephrase = randomFun(phrase)
-  const result = `身為一個${target}，${onetask}，${onephrase}吧!`
+  const oneTask = randomFun(taskCollection)
+  const onePhrase = randomFun(phrase)
+  const result = `身為一個${target}，${oneTask}，${onePhrase}吧!`
   // return the generated trash talk
   return result
 }

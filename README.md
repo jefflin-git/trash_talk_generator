@@ -2,7 +2,7 @@
 採用 Node.js 和 Express 打造的幹話產生器，使用者可以在此站上一鍵產生幹話
 
 ## 專案畫面
-![](https://i.imgur.com/WgLVPVR.png)
+![專案畫面](https://i.imgur.com/WgLVPVR.png)
 ## 功能描述 (features)
 - 使用者可以在工程師、設計師、或創業家中選擇一個對象（三選一)
 - 使用者按下【產生幹話】後，旁邊的 textbox 就會出現一句幹話
@@ -34,4 +34,4 @@
 7. 開啟任一瀏覽器瀏覽器輸入 http://localhost:3000 開始使用
 
 ## 專案開發人員 (contributor)
-> Jeff Lin
+> [Jeff Lin](https://github.com/jefflin-git)
